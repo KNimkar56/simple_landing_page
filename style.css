@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.container{
+    text-align: center;
+    color: black;
+    background-image: url(pexels-kelly-rabie-787427-1878095.jpg);
+   padding-top: 250px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+
+
+.back{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    margin-top: 10vh;
+    padding-left: 100px;
+    
+}
